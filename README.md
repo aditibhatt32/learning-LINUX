@@ -9,3 +9,18 @@ Then why use Linux?
 we use Linux because of the CLI(Command Line Interface), we write cammand and then actions is performed. The commands gives us the better understanding of what the system is doing at any particular moment.
 
 Linux has many commands, we'll be learning many of them.
+
+Before learning about the commands, let's see what is options and arguments.
+-- Options: This is used to alter the behaviour of the command.
+-- Arguments: These are the items or the values upon which the command acts.
+
+BASIC SYNTAX OF COMMAND:
+command [options] [arguments]
+
+1--- cd command: change directory command cd is used to change the current directory. syntax: cd [options] [path]
+path specifies the location of the file. 
+eg: cd / (moves to the root directory)
+
+
+
+
