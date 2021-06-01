@@ -56,6 +56,23 @@ lets consider the details of a file, d  rwxr-xr-x 2 root root 4096 April 11 2014
   tr will reverse the order of file
   r will sort inreverse alphabetical order.
   
+  
+  Administrative Priviledges- This means the user is the creater of the directory. He/she is the root user, therefore has many administrative priviledges.
+  3--- Su command:This command creates a new shell. The shell is simple Input console to write commands. By default if user account is not specified , the su command will open shell as the root user, therefore will give adminitrative previlidges.
+  How to login to new shell?
+  use any of the three
+  1. su -
+  2. su - l
+  3. su -- login.
+  
+  To logout : 'exit' command is used to logout out from the shell.
+  
+  4--- sudo command- Allows the user to execute a command without creating a new shell. Syntax sudo [command]
+  
+  
+  Permission- It describes which user is authorized to access a file and for how much time.
+  
+  
                                     
 
 
