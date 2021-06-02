@@ -72,6 +72,31 @@ lets consider the details of a file, d  rwxr-xr-x 2 root root 4096 April 11 2014
   
   Permission- It describes which user is authorized to access a file and for how much time.
   
+  There are three types of permission-
+  Permission              Effect on file                  
+  
+  read(r)                 Allows to read or copy file    
+  write(w)                Allows to modify or override
+  execute(x)              Allows for a file to run as a process
+  
+  
+  Changing file Permission: There are two techniquie to change the permission :symbolic and octal.
+  symboli:To change one set of permission.
+  octal:To change multiple permission
+  
+  5---chmod- Change the mode of access .Syntax : chmod [<SET><ACTION><PERMISSIONS>]...FILE
+ <SET>-----> u: user, g: group, o: others, a: all 
+  <ACTION>-----> +: add permission, =: specify exact permission, -: remove the permission
+   <PERMISSION>----> read:r, write:w, execute:x
+    
+    eg: We have to add execute permission to the user in the file hello.sh
+    chmod u+x hello.sh
+    
+    Changing file ownership-The chown command is used to change the ownership of the files and directories
+    Syntax: chown[options][owner]  FILE
+    eg: sudo chown root hello.sh
+  
+  
   
                                     
 
