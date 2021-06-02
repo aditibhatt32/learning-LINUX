@@ -92,7 +92,7 @@ lets consider the details of a file, d  rwxr-xr-x 2 root root 4096 April 11 2014
     eg: We have to add execute permission to the user in the file hello.sh
     chmod u+x hello.sh
     
-    Changing file ownership-The chown command is used to change the ownership of the files and directories
+   6----Changing file ownership-The chown command is used to change the ownership of the files and directories
     Syntax: chown[options][owner]  FILE
     eg: sudo chown root hello.sh
   
