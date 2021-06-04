@@ -96,6 +96,29 @@ lets consider the details of a file, d  rwxr-xr-x 2 root root 4096 April 11 2014
     Syntax: chown[options][owner]  FILE
     eg: sudo chown root hello.sh
   
+  Viewing Files
+  7----Cat-This command is used to view all the details of small files.
+  SYSNTAX- cat [options] [file
+  
+  Limitations of cat command- used only for small file. If it is udes for big file then it can result long list of details.
+    
+    8---head-This command is used to view details from the top of the file.
+      SYNTAX- head [option][file]
+    
+    9---tail-This command is used to view details from the bottom of the file.
+       SYNTAX- tail [option] [file]
+    
+    -n option- With head and tail command we can display the amout of lines to display.
+    eg- head -n 5 file, this means that it will display the detail of 1st 5 lines from the top of file.
+    
+    Copying File- 1. To have the original document secured .
+                  2. Act as a template for new files.
+    10---cp -This command is used to copy the file.
+    SYNTAX- cp [options] source destination
+    source- the file to be copied.
+    destination-Where the file is to be copied.
+    eg- cp /etc/passwd .
+    . specifies the current directory.
   
   
                                     
